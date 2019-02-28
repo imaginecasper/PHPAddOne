@@ -9,7 +9,9 @@ Within the while loop the code checks for similar bits between the provided inte
 If there is a similar bit, it means that more work is neccessary to add the number and the additional carry bit is stored.
 The holding variable is then added to the provided integer using an XOR operation.
 The holding variable is then assigned the shifted value of the carry bit to be added in the next iteration.
-The process continues until the bits of the provided number equal to the provided number+1; when carry bits are mo longer needed.
+The process continues until the bits of the provided number equal to the provided number+1; when carry bits are no longer needed.
+
+The code contains test functions that assign different n values and echo the respective responses.
 
 
 
