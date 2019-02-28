@@ -1,11 +1,11 @@
 # PHPAddOne
 This code contains a PHP function that adds 1 to an integer n without using arithmetic operations
 
-The Code works by first checking if the integer provided is valid. If integer is to big the function will fail and display respective message.
+The Code works by first checking if the integer provided is valid. If integer is too big the function will fail and display respective message.
 
 The function first creates a holding variable to hold the value to be added, initially 1.
 It then enters a while loop that breaks when the value to be added is 0.
-Within the while loop the code checks for similar bits between the provided interger and the one to be added.
+Within the while loop the code checks for similar bits between the provided integer and the one to be added.
 If there is a similar bit, it means that more work is neccessary to add the number and the additional carry bit is stored.
 The holding variable is then added to the provided integer using an XOR operation.
 The holding variable is then assigned the shifted value of the carry bit to be added in the next iteration.
